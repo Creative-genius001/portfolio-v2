@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --border: rgba(255, 255, 255, 0.1);
 }
 
 @theme inline {
@@ -15,12 +16,108 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: white;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+html {
+  scroll-behavior: smooth;
 }
+
+body {
+  /* background: var(--background); */
+  background: white;
+  /* color: var(--foreground); */
+  color: #0a0a0a;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.shiny-text {
+  position: relative;
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+@keyframes floatBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.float-bounce {
+  animation: floatBounce 2s ease-out infinite;
+}
+
+@keyframes resume {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-8px);
+  }
+}
+
+.resume {
+  animation: floatBounce 2s ease-out infinite;
+}
+
+.icon:hover{
+  translate: 0px -6px;
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .section{
+    width: 90%;
+  }
+  .project-card{
+    padding: 20px;
+  }
+  .float-btn{
+    font-size: 2.5rem;
+    bottom: 50px;
+    right: 20px;
+  }
+}
+
+.loader {
+  position: relative;
+}
+.loader:after {
+  content: '';
+  background: #282828;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  border-radius:4px;
+  transform-origin: -16px -32px;
+  animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+   0% , 100% {
+      transform: rotate(-45deg)  translate(-50% , -50%)
+    }
+   50% {
+      transform: rotate(-245deg)  translate(-50% , -50%)
+   }
+}
+  

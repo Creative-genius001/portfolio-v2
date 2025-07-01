@@ -1,0 +1,53 @@
+{   "hero": {
+        "header": "Hey I'm Ovie Ighosuakpo — Software Engineer. Building Scalable Systems.",
+        "paragraph": "I build performant systems that elevate user experience and product scalability."
+    },
+    "about": {
+        "title": "ABOUT",
+        "paragraph1": "A software engineer passionate about building scalable systems that directly improve product performance and user experience.  I thrive in collaborative environments, solving complex problems with clean, efficient code and bring a balance of speed, quality, and impact. ",
+        "paragraph2": "I have built and shipped robust frontend and backend applications using javascript frameworks like React, Nextjs, Angular and Go(Golang). I'm currently building a payment platform infrastructure using a micro-services design architecture and have been expanding gradually into AI product development",
+        "paragraph3": "I’m also actively building my presence in the tech community. With over 1000+ followers on X, I’ve learned and connected with top minds, mentors in the indie hacker and maker space."
+    },
+    "projects": {
+        "title": "PROJECTS",
+        "description": "Projects i have built over time",
+        "project": [
+            {
+                "name": "OviStake",
+                "description": "An ethereum staking platform for staking and unstaking ethereum. Built using Nextjs, Zustand for state mangement, Radix UI,  Vanilla extract",
+                "liveLink": "https://ovistake.vercel.app/",
+                "githubLink": "https://github.com/Creative-genius001/ovistake"
+            },
+            {
+                "name": "Appdule",
+                "description": "A fully responsive appointment schedulling application built with nextjs, firebase, typescript, Antd design and redux for state management.",
+                "liveLink": "https://appdule.vercel.app",
+                "githubLink": "https://github.com/Creative-genius001/Appdule---NextJS-Appointment-schedulling-app"
+            },
+            {
+                "name": "Connekt",
+                "description": "A platform where job seekers can come look to get hired and employers can come hire talents.",
+                "liveLink": "",
+                "githubLink": ""
+            },
+             {
+                "name": "MoodMatch",
+                "description": "Get an AI recommended playlist that is tailored to the user's current mood. Generated playlist can be saved directly to user's spotify account to listen",
+                "liveLink": "",
+                "githubLink": "https://github.com/Creative-genius001/MoodMatch"
+            },
+             {
+                "name": "Staklo",
+                "description": "A micro-services payment platform for buying and selling crypto assets with fiat",
+                "liveLink": "",
+                "githubLink": "https://github.com/Creative-genius001/Stacklo"
+            },
+             {
+                "name": "Netmovies",
+                "description": "Platform for getting latest and trending movies and watching the thrillers",
+                "liveLink": "https://netmoviesapp.netlify.app/",
+                "githubLink": "https://github.com/Creative-genius001/movie-app"
+            }
+        ]
+    }
+}
