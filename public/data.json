@@ -8,6 +8,17 @@
         "paragraph2": "I have built and shipped robust frontend and backend applications using javascript frameworks like React, Nextjs, Angular and Go(Golang). I'm currently building a payment platform infrastructure using a micro-services design architecture and have been expanding gradually into AI product development",
         "paragraph3": "I’m also actively building my presence in the tech community. With over 1000+ followers on X, I’ve learned and connected with top minds, mentors in the indie hacker and maker space."
     },
+    "experiences": {
+        "title": "EXPERIENCES",
+        "experience": [
+            {
+                "companyName": "Bitspend",
+                "role": "Frontend Engineer",
+                "duration": "JULY 2023 - NOV 2024",
+                "tasks": "Led the development of scalable frontend architecture using Angular and a NestJS middleware for data routing. Built reusable UI components, implemented robust form validation, and integrated API/state management. Established CI/CD pipelines for automated deployment, and collaborated cross-functionally in agile teams to deliver key features."
+            }
+        ]
+    },
     "projects": {
         "title": "PROJECTS",
         "description": "Projects i have built over time",

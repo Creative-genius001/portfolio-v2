@@ -15,7 +15,7 @@ const Hero = (prop: {data: Data}) => {
 
     return (
         <div className='section mx-auto lg:w-1/2 flex flex-col justify-center items-start h-screen'>
-            <SplashCursor />
+            {/* <SplashCursor /> */}
             <span className="bg-[#E1F9DC] rounded-md px-4 py-2 text-xs font-semibold text-[#3fa12b] mb-3 border-2 border-[#baeab0]">Available for hire</span>
             <h1 className='sm: text-4xl md:text-6xl font-semibold mb-5'>{data.hero.header}</h1>
             <p className="text-lg">{data.hero.paragraph}</p>

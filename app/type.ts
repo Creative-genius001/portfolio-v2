@@ -1,8 +1,14 @@
-type Experience = {
-  role: string;
-  company: string;
-  years: string;
+type Experiences = {
+  title: string,
+  experience: Array<Experience>
 };
+
+export type Experience = {
+  role: string;
+  companyName: string;
+  duration: string;
+  tasks: string
+}
 
 type About = {
     title: string,
@@ -31,5 +37,5 @@ export type Data = {
   about: About,
   projects: Project,
   hero: Hero,
-  experience: Experience[];
+  experiences: Experiences;
 };

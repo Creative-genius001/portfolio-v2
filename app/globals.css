@@ -120,4 +120,7 @@ h5 {
       transform: rotate(-245deg)  translate(-50% , -50%)
    }
 }
-  
+
+p {
+  color: #3f3f3f;
+}

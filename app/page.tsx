@@ -8,6 +8,7 @@ import Projects from "./components/projects";
 import Footer from "./components/footer";
 import BackToTopButton from "./components/backToTopBtn";
 import Loader from "./components/loader";
+import Experiences from "./components/experiences";
 
 
 
@@ -30,7 +31,7 @@ export default function Home() {
           {/* <Nav /> */}
           <BackToTopButton />
           <Hero data={data} />
-          
+          <Experiences data={data} />
           <About data={data} />
           <Projects data={data} />
           <Footer />
